@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LUMA Asset Strategy &amp; Management — Initiative Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark"></span>
+    <div>
+      <div class="brand-title">Asset Strategy &amp; Management</div>
+      <div class="brand-sub">Initiative Portfolio Visualizer</div>
+    </div>
+  </div>
+  <div class="search-wrap">
+    <input id="globalSearch" type="search" placeholder="Search initiatives, assets, teams, people…" autocomplete="off" />
+    <div id="searchResults" class="search-results" hidden></div>
+  </div>
+  <nav class="views">
+    <button class="view-btn active" data-view="network">Network</button>
+    <button class="view-btn" data-view="dashboard">Dashboard</button>
+    <button class="view-btn" data-view="table">Table</button>
+  </nav>
+</header>
+
+<div id="filterBar" class="filter-bar" hidden>
+  <span id="filterLabel"></span>
+  <button id="clearFilter">Clear filter ✕</button>
+</div>
+
+<main>
+  <section id="view-network" class="view active">
+    <div id="graph"></div>
+    <div id="legend" class="legend"></div>
+  </section>
+  <section id="view-dashboard" class="view"><div id="dashboard"></div></section>
+  <section id="view-table" class="view"><div id="tableWrap"></div></section>
+</main>
+
+<aside id="sidePanel" class="side-panel">
+  <button id="closePanel" class="close-panel">✕</button>
+  <div id="panelContent"></div>
+</aside>
+<div id="panelScrim" class="scrim" hidden></div>
+
+<div id="loadError" class="load-error" hidden></div>
+
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
