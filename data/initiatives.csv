@@ -1,41 +1,41 @@
-Category,Name,Assets Involved,Assets Involved 2,Description,Owner,Collaborator,Person in Charge
-Distribution,Distribution Pole Replacement,Poles,,Replace damaged or at risk distribution poles complying with LUMA standards,Asset Management,Work Management,Person A
-Distribution,Hotspot Inspection,Distribution Lines,,Perform hotspot inspections and corresponding repairs on distribution lines and distrution assets,Regional Reliability,Distribution Ops,Person A
-Distribution,Visual Inspection,Distribution Lines,,Perform visual inspections and corresponding repairs on distribution lines and distribution assets,Regional Reliability,Distribution Ops,Person A
-Distribution,FCI Installation,FCI,,Install Fault Current Indicators on Distribution Lines,Regional Reliability,Distribution Ops,Person A
-Distribution,Cutout Installation,Pole-Mounted Cutouts,,Install sectionalizing fuse cutouts in currently unprotected distribution laterals,Regional Reliability,Distribution Ops,Person A
-Distribution,Fuse Coordination,Fuses,,Perform fuse changes according to fuse and recloser coordination reports for proper sectionalizing and protection operation schemes. ,Regional Reliability,Distribution Ops,Person A
-Distribution,Distribution Automation,Reclosers,,Install new reclosing devices in distribution lines,Automation,Work Management,Person A
-Distribution,Distribution Line Rebuild,Distribution Lines,,Rebuild entire segments of distribution lines,PMO,Work Management,Person A
-Distribution,Distribution Transformer Voltage Correction,Distribution Transformers,Secondary,"Through data captured by AMI, start tackling voltage and safety issues in secondary lines betwee distribution transformers and meters. ",Asset Management,AMI,Person A
-Distribution,Overloaded Distribution Transformer,Distribution Transformers,,"Through data captured by AMI, start tackling overloaded distribution transformers by replacing them with higher capacity ones. ",Asset Management,AMI,Person A
-Distribution,Undergrounding,Underground Lines,,Undergrounding at risk overhead lines that can be shown to have increased beenfit cost analysis through undergrounding instead of periodical overhead repairs or reconstructions.,Asset Management,Underground Ops,Person A
-Distribution,Provisional Overhead Reconstruction,Provisional,Underground Lines,Tackle the provisional overhead issue plaguing areas that have out of service underground infrastructure and were built overhead with poor or no standards as a way to reenergize clients in the area. Fixes can be to reconstruct the underground segments or to rebuild the overhead lines but to current LUMA modern standards. ,,,Person A
-Distribution,Vegetation Management,Distribution Lines,,Perform vegetation clearing activities and herbicide application on distribution right of way vegetation,Vegetation,Asset Management,Person A
-Distribution,Distribution Wildfire Prevention,Distribution Lines,,Perform improvements to areas idenfitied as high risk for wildfire ignition or propagation to reduce risks associated with wildfire. ,Regional Reliability,,Person X
-Distribution,Line Cover Installation,Distribution Lines,,"Install line covers in areas identified as high risk of vegetation contact, phase-to-phase contact, and other scenarios requiring the use of line covers. Line covers behave similarly to covered conductors, yet can be applied to any existing bare conductor without replacing it. ",Regional Reliability,,Person Y
-Transmission,Transmission Pole Replacement,Poles,Towers,Replace damaged or at risk transmission poles and towers complying with LUMA standards,Asset Management,Work Management,Person A
-Transmission,Insulator & Hardware Replacement,Insulators,Hardware,"Replace old, corroded, and/or damaged transmission insulators and hardware.",Asset Management,Transmission Ops,Person B
-Transmission,Overhead Ground Wire Replacement,Overhead Ground Wire,,Install missing segments of overhead ground wire that have fallen throughout time and are no longer present in transmission lines. ,Asset Management,Transmission Ops,Person B
-Transmission,38kV Recloser Installation,Reclosers,,Install new reclosing devices in transmission lines,Automation,Work Management,Person B
-Transmission,Transmission Line Rebuild,Transmission Lines,,Rebuild entire segments of transmission lines,PMO,Work Management,Person B
-Transmission,Vegetation Management,Transmission Lines,,Perform vegetation clearing activities and herbicide application on transmission right of way vegetation,Vegetation,,Person B
-Transmission,Hotspot Inspection,Transmission Lines,,Perform hotspot inspections and corresponding repairs on transmission lines and transmission assets,,,Person B
-Transmission,Visual Inspection,Transmission Lines,,Perform visual inspections and corresponding repairs on transmission lines and transmission assets,,,Person B
-Transmission,cFCI Sensor Intallation,Transmission Lines,,Install Communicating Fault Current Indicators on Distribution Lines,Automation,Work Management,Person B
-Transmission,MOD Replacement,MOD Switches,,Replace out of service motor operated disconnect switches in transmission lines.,Transmission Ops,,Perdon E
-Substation,Out of Service Breaker,Breakers,,Bring back into service breakers that are not in service and are in need of repairs or replacements,Asset Management,Substation Ops,Person B
-Substation,Breaker Replacement Project,Breakers,,Replace breakers that are reaching or have reached their end of life,Asset Management,Substation Ops,Person B
-Substation,Relay Modernization,Relays,,Replace electromagnetic relays with modern digital ones,PAC,Substation Ops,Person B
-Substation,Out or Servive RTU,RTU,,Bring back to service RTUs that are currently not in working condition and prevents the substation from communicating to system control through SCADA and therefore cannot me remotely operated nor have any visibility.,Telecom,Substation Ops,Person B
-Substation,Transformer Replacement Project,Transformers,,"Replace damaged, old, and at risk substation transformers with new ones. ",Asset Management,Substation Ops,Person B
-Substation,Substation Rebuild,Substations,,Rebuild entire substations with modern equipment and standards. ,PMO,Substation Ops,Person B
-Substation,Transformer Dissolved Gas Analysis,Transformers,,Perform DGA analysis on all transformers on a cyclical basis,Asset Management,Substation Ops,Person C
-Substation,Ground Grid Rebuild,Grounding Grids,,Rebuild the ground grid of substations that show inproper grounding conditions that represent a hazard to the personnel and to the liens that depend on proper grounding for fault conditions and voltage measurements,Substation Ops,Work Management,Person C
-Substation,Hotspot Inspection,Substations,,Perform hotspot inspections and corresponding repairs on substations and substation assets,Regional Reliability,Substation Ops,Person C
-Substation,Visual Inspection,Substations,,Perform visual inspections and corresponding repairs on substations and substation assets,Regional Reliability,Substation Ops,Person C
-Substation,Vegetation Management,Substations,,Perform vegetation clearing activities and herbicide application on substation vegetation,Vegetation,Substation Ops,Person C
-Other,New Customer Connection,Meters,,Interconnection of new customers to the distribution grid or directly to transmission lines in case of industrial and commercial customers. ,NPC,System Planning,Person C
-Other,Advanced Metering Infrastructure,Meters,,Replace all grid customer meters with new modern AMI 2.0 advanced meters ,AMI,Metering,Person C
-Other,BESS Interconnection,BESS,,"Add BESS storage for peak shaving, frequency and voltage control. ",PAC,Asset Management,Person C
-Other,Renewable Interconnection,Renewable Generation,,Interconnect new renewable projets to the grid. ,PAC,Asset Management,Person C
+Category,Name,Assets Involved,Assets Involved 2,Assets Involved 3,Description,Owner,Collaborator,Person in Charge
+Distribution,Distribution Pole Replacement,Poles,,,Replace damaged or at risk distribution poles complying with LUMA standards,Asset Management,Work Management,Person A
+Distribution,Hotspot Inspection,Distribution Lines,,,Perform hotspot inspections and corresponding repairs on distribution lines and distrution assets,Regional Reliability,Distribution Ops,Person A
+Distribution,Visual Inspection,Distribution Lines,,,Perform visual inspections and corresponding repairs on distribution lines and distribution assets,Regional Reliability,Distribution Ops,Person A
+Distribution,FCI Installation,FCI,,,Install Fault Current Indicators on Distribution Lines,Regional Reliability,Distribution Ops,Person A
+Distribution,Cutout Installation,Pole-Mounted Cutouts,,,Install sectionalizing fuse cutouts in currently unprotected distribution laterals,Regional Reliability,Distribution Ops,Person A
+Distribution,Fuse Coordination,Fuses,,,Perform fuse changes according to fuse and recloser coordination reports for proper sectionalizing and protection operation schemes. ,Regional Reliability,Distribution Ops,Person A
+Distribution,Distribution Automation,Reclosers,,,Install new reclosing devices in distribution lines,Automation,Work Management,Person A
+Distribution,Distribution Line Rebuild,Distribution Lines,,,Rebuild entire segments of distribution lines,PMO,Work Management,Person A
+Distribution,Distribution Transformer Voltage Correction,Distribution Transformers,Secondary,,"Through data captured by AMI, start tackling voltage and safety issues in secondary lines betwee distribution transformers and meters. ",Asset Management,AMI,Person A
+Distribution,Overloaded Distribution Transformer,Distribution Transformers,,,"Through data captured by AMI, start tackling overloaded distribution transformers by replacing them with higher capacity ones. ",Asset Management,AMI,Person A
+Distribution,Undergrounding,Underground Lines,,,Undergrounding at risk overhead lines that can be shown to have increased beenfit cost analysis through undergrounding instead of periodical overhead repairs or reconstructions.,Asset Management,Underground Ops,Person A
+Distribution,Provisional Overhead Reconstruction,Provisional,Underground Lines,,Tackle the provisional overhead issue plaguing areas that have out of service underground infrastructure and were built overhead with poor or no standards as a way to reenergize clients in the area. Fixes can be to reconstruct the underground segments or to rebuild the overhead lines but to current LUMA modern standards. ,,,Person A
+Distribution,Vegetation Management,Distribution Lines,,,Perform vegetation clearing activities and herbicide application on distribution right of way vegetation,Vegetation,Asset Management,Person A
+Distribution,Distribution Wildfire Prevention,Distribution Lines,,,Perform improvements to areas idenfitied as high risk for wildfire ignition or propagation to reduce risks associated with wildfire. ,Regional Reliability,,Person X
+Distribution,Line Cover Installation,Distribution Lines,,,"Install line covers in areas identified as high risk of vegetation contact, phase-to-phase contact, and other scenarios requiring the use of line covers. Line covers behave similarly to covered conductors, yet can be applied to any existing bare conductor without replacing it. ",Regional Reliability,,Person Y
+Transmission,Transmission Pole Replacement,Poles,Towers,,Replace damaged or at risk transmission poles and towers complying with LUMA standards,Asset Management,Work Management,Person A
+Transmission,Insulator & Hardware Replacement,Insulators,Hardware,,"Replace old, corroded, and/or damaged transmission insulators and hardware.",Asset Management,Transmission Ops,Person B
+Transmission,Overhead Ground Wire Replacement,Overhead Ground Wire,,,Install missing segments of overhead ground wire that have fallen throughout time and are no longer present in transmission lines. ,Asset Management,Transmission Ops,Person B
+Transmission,38kV Recloser Installation,Reclosers,,,Install new reclosing devices in transmission lines,Automation,Work Management,Person B
+Transmission,Transmission Line Rebuild,Transmission Lines,,,Rebuild entire segments of transmission lines,PMO,Work Management,Person B
+Transmission,Vegetation Management,Transmission Lines,,,Perform vegetation clearing activities and herbicide application on transmission right of way vegetation,Vegetation,,Person B
+Transmission,Hotspot Inspection,Transmission Lines,,,Perform hotspot inspections and corresponding repairs on transmission lines and transmission assets,,,Person B
+Transmission,Visual Inspection,Transmission Lines,,,Perform visual inspections and corresponding repairs on transmission lines and transmission assets,,,Person B
+Transmission,cFCI Sensor Intallation,Transmission Lines,,,Install Communicating Fault Current Indicators on Distribution Lines,Automation,Work Management,Person B
+Transmission,MOD Replacement,MOD Switches,,,Replace out of service motor operated disconnect switches in transmission lines.,Transmission Ops,,Perdon E
+Substation,Out of Service Breaker,Breakers,,,Bring back into service breakers that are not in service and are in need of repairs or replacements,Asset Management,Substation Ops,Person B
+Substation,Breaker Replacement Project,Breakers,,,Replace breakers that are reaching or have reached their end of life,Asset Management,Substation Ops,Person B
+Substation,Relay Modernization,Relays,,,Replace electromagnetic relays with modern digital ones,PAC,Substation Ops,Person B
+Substation,Out or Servive RTU,RTU,,,Bring back to service RTUs that are currently not in working condition and prevents the substation from communicating to system control through SCADA and therefore cannot me remotely operated nor have any visibility.,Telecom,Substation Ops,Person B
+Substation,Transformer Replacement Project,Transformers,,,"Replace damaged, old, and at risk substation transformers with new ones. ",Asset Management,Substation Ops,Person B
+Substation,Substation Rebuild,Substations,,,Rebuild entire substations with modern equipment and standards. ,PMO,Substation Ops,Person B
+Substation,Transformer Dissolved Gas Analysis,Transformers,,,Perform DGA analysis on all transformers on a cyclical basis,Asset Management,Substation Ops,Person C
+Substation,Ground Grid Rebuild,Grounding Grids,,,Rebuild the ground grid of substations that show inproper grounding conditions that represent a hazard to the personnel and to the liens that depend on proper grounding for fault conditions and voltage measurements,Substation Ops,Work Management,Person C
+Substation,Hotspot Inspection,Substations,,,Perform hotspot inspections and corresponding repairs on substations and substation assets,Regional Reliability,Substation Ops,Person C
+Substation,Visual Inspection,Substations,,,Perform visual inspections and corresponding repairs on substations and substation assets,Regional Reliability,Substation Ops,Person C
+Substation,Vegetation Management,Substations,,,Perform vegetation clearing activities and herbicide application on substation vegetation,Vegetation,Substation Ops,Person C
+Other,New Customer Connection,,,,Interconnection of new customers to the distribution grid or directly to transmission lines in case of industrial and commercial customers. ,NPC,System Planning,Person C
+Other,Advanced Metering Infrastructure,Meters,,,Replace all grid customer meters with new modern AMI 2.0 advanced meters ,AMI,Metering,Person C
+Other,BESS Interconnection,,,,"Add BESS storage for peak shaving, frequency and voltage control. ",PAC,Asset Management,Person C
+Other,Renewable Interconnection,,,,Interconnect new renewable projets to the grid. ,PAC,Asset Management,Person C
