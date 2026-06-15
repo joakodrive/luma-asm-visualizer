@@ -1,0 +1,19 @@
+Source,Target,Relationship,Style
+Transformer Replacement Project,Transformers,acts-on,dashed
+Transformer Replacement Project,Procurement,interfaces,dashed
+Transformer Replacement Project,PMO / PAC,interfaces,dashed
+Breaker Replacement Project,Breakers,acts-on,dashed
+Breaker Replacement Project,Procurement,interfaces,dashed
+Relay Modernization,Relays,acts-on,dashed
+Relay Modernization,PMO / PAC,interfaces,dashed
+Transformer Dissolved Gas Analysis,Transformers,acts-on,dashed
+Ground Grid Rebuild,Grounding Grids,acts-on,dashed
+Distribution Automation,Reclosers,acts-on,dashed
+Distribution Automation,Work Management,interfaces,dashed
+Distribution Pole Replacement,Poles,acts-on,dashed
+Advanced Metering Infrastructure,Meters,acts-on,dashed
+Advanced Metering Infrastructure,OTS,interfaces,dashed
+Insulator & Hardware Replacement,Insulators,acts-on,dashed
+Insulator & Hardware Replacement,Hardware,acts-on,dashed
+Vegetation Management,Distribution Lines,acts-on,dashed
+Vegetation Management,Transmission Lines,acts-on,dashed

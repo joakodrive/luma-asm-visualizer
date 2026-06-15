@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LUMA Asset Strategy &amp; Management — Operating Model</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/operating-model.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark"></span>
+    <div>
+      <div class="brand-title">Asset Strategy &amp; Management</div>
+      <div class="brand-sub">Operating Model</div>
+    </div>
+  </div>
+  <nav class="views">
+    <a class="view-btn" href="index.html">◀ Initiative Portfolio</a>
+  </nav>
+</header>
+
+<div class="om-controls">
+  <div class="seg" id="viewSeg">
+    <button data-view="domain" class="active">By Asset Domain</button>
+    <button data-view="function">By Function</button>
+    <button data-view="matrix">Matrix</button>
+  </div>
+  <label class="ctl">Color by
+    <select id="colorBy">
+      <option value="type">Node type</option>
+      <option value="function">Function</option>
+      <option value="domain">Asset domain</option>
+      <option value="tier">Governance tier</option>
+    </select>
+  </label>
+  <button id="clearFocus" class="ctl-btn" hidden>Clear selection ✕</button>
+  <div id="omLegend" class="om-legend"></div>
+</div>
+
+<div class="om-principle" id="omPrinciple"></div>
+
+<main class="om-main">
+  <svg id="ties" class="ties"></svg>
+  <div id="board" class="board"></div>
+</main>
+
+<div class="om-interfaces" id="omInterfaces"></div>
+
+<aside id="sidePanel" class="side-panel">
+  <button id="closePanel" class="close-panel">✕</button>
+  <div id="panelContent"></div>
+</aside>
+<div id="panelScrim" class="scrim" hidden></div>
+<div id="loadError" class="load-error" hidden></div>
+
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script src="js/operating-model.js"></script>
+</body>
+</html>
